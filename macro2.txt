@@ -1,0 +1,19 @@
+LOCO 1
+STOD i
+loop:
+LODD k
+SUBD i
+JNEG end
+LOCO n
+ADDD i
+PSHI
+LODL 0
+ADDL 0
+ADDD b
+STOD b
+INSP 1
+LOCO 1
+ADDD i
+STOD i
+JUMP loop
+end:

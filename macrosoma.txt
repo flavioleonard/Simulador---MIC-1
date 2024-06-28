@@ -1,0 +1,9 @@
+LOCO 1 
+STOD a
+LOCO 2
+STOD b
+LODD a 
+STOD c
+ADDD b
+STOD c
+end:

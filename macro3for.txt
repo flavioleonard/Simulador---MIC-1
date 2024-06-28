@@ -1,0 +1,18 @@
+LOCO 0
+STOD x
+LOCO 2
+STOD k
+LOCO 1
+STOD i
+loop:
+LODD k 
+SUBD i
+JNEG end
+LOCO 1
+ADDD x
+STOD x
+LOCO 1
+ADDD i
+STOD i
+JUMP loop
+end:
